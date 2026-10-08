@@ -1,0 +1,105 @@
+match_no,date,stage,team_A,team_B,fifa_diff,scored_diff,conceded_diff,xg_diff,ucl_min_diff,attack_out_diff,host,h2h_gd,goal_diff,Set_80_20,Set_70_30
+1,2026-06-11,Group stage,Mexico,South Africa,,,,0.0,,,1,,2,Test,Test
+2,2026-06-11,Group stage,Korea Republic,Czechia,,,,0.0,,,0,,1,Train,Train
+3,2026-06-12,Group stage,Canada,Bosnia and Herzegovina,,,,0.0,,,1,,0,Test,Test
+4,2026-06-12,Group stage,USA,Paraguay,,,,0.0,,,1,,3,Train,Train
+5,2026-06-13,Group stage,Qatar,Switzerland,,,,0.0,,,0,,0,Test,Test
+6,2026-06-13,Group stage,Brazil,Morocco,,,,0.0,,,0,,0,Train,Train
+7,2026-06-13,Group stage,Australia,Türkiye,,,,0.0,,,0,,2,Train,Train
+8,2026-06-13,Group stage,Haiti,Scotland,,,,0.0,,,0,,-1,Train,Test
+9,2026-06-14,Group stage,Germany,Curaçao,,,,0.0,,,0,,6,Train,Train
+10,2026-06-14,Group stage,Netherlands,Japan,,,,0.0,,,0,,0,Train,Train
+11,2026-06-14,Group stage,Côte d'Ivoire,Ecuador,,,,0.0,,,0,,1,Train,Train
+12,2026-06-14,Group stage,Sweden,Tunisia,,,,0.0,,,0,,4,Train,Train
+13,2026-06-15,Group stage,Belgium,Egypt,,,,0.0,,,0,,0,Train,Train
+14,2026-06-15,Group stage,Spain,Cabo Verde,,,,0.0,,,0,,0,Train,Train
+15,2026-06-15,Group stage,Saudi Arabia,Uruguay,,,,0.0,,,0,,0,Train,Train
+16,2026-06-15,Group stage,IR Iran,New Zealand,,,,0.0,,,0,,0,Train,Train
+17,2026-06-16,Group stage,France,Senegal,,,,0.0,,,0,,2,Train,Train
+18,2026-06-16,Group stage,Iraq,Norway,,,,0.0,,,0,,-3,Train,Train
+19,2026-06-16,Group stage,Argentina,Algeria,,,,0.0,,,0,,3,Test,Test
+20,2026-06-16,Group stage,Austria,Jordan,,,,0.0,,,0,,2,Train,Train
+21,2026-06-17,Group stage,Portugal,Congo DR,,,,0.0,,,0,,0,Train,Train
+22,2026-06-17,Group stage,England,Croatia,,,,0.0,,,0,,2,Test,Test
+23,2026-06-17,Group stage,Ghana,Panama,,,,0.0,,,0,,1,Train,Train
+24,2026-06-17,Group stage,Uzbekistan,Colombia,,,,0.0,,,0,,-2,Train,Train
+25,2026-06-18,Group stage,Czechia,South Africa,,,,-0.019999999999999962,,,0,,0,Test,Test
+26,2026-06-18,Group stage,Switzerland,Bosnia and Herzegovina,,,,0.7175,,,0,,3,Test,Test
+27,2026-06-18,Group stage,Canada,Qatar,,,,0.7175,,,1,,6,Train,Test
+28,2026-06-18,Group stage,Mexico,Korea Republic,,,,-0.019999999999999962,,,1,,1,Test,Test
+29,2026-06-19,Group stage,USA,Australia,,,,0.265,,,1,,2,Test,Test
+30,2026-06-19,Group stage,Scotland,Morocco,,,,-0.027500000000000024,,,0,,-1,Train,Train
+31,2026-06-19,Group stage,Türkiye,Paraguay,,,,0.265,,,0,,-1,Train,Train
+32,2026-06-19,Group stage,Brazil,Haiti,,,,-0.027500000000000024,,,0,,3,Train,Train
+33,2026-06-20,Group stage,Netherlands,Sweden,,,,-0.215,,,0,,4,Train,Train
+34,2026-06-20,Group stage,Germany,Côte d'Ivoire,,,,0.825,,,0,,1,Test,Test
+35,2026-06-20,Group stage,Ecuador,Curaçao,,,,0.825,,,0,,0,Train,Train
+36,2026-06-20,Group stage,Tunisia,Japan,,,,-0.215,,,0,,-4,Train,Train
+37,2026-06-21,Group stage,Spain,Saudi Arabia,,,,0.74,,,0,,4,Train,Train
+38,2026-06-21,Group stage,Belgium,IR Iran,,,,0.0025000000000000022,,,0,,0,Train,Test
+39,2026-06-21,Group stage,Uruguay,Cabo Verde,,,,0.74,,,0,,0,Train,Test
+40,2026-06-21,Group stage,New Zealand,Egypt,,,,0.0025000000000000022,,,0,,-2,Train,Train
+41,2026-06-22,Group stage,Argentina,Austria,,,,-0.04749999999999999,,,0,,2,Train,Train
+42,2026-06-22,Group stage,France,Iraq,,,,0.745,,,0,,3,Train,Train
+43,2026-06-22,Group stage,Norway,Senegal,,,,0.745,,,0,,1,Train,Train
+44,2026-06-22,Group stage,Jordan,Algeria,,,,-0.04749999999999999,,,0,,-1,Train,Train
+45,2026-06-23,Group stage,Portugal,Uzbekistan,,,,0.05750000000000005,,,0,,5,Train,Train
+46,2026-06-23,Group stage,England,Ghana,,,,0.48,,,0,,0,Test,Test
+47,2026-06-23,Group stage,Panama,Croatia,,,,0.48,,,0,,-1,Train,Test
+48,2026-06-23,Group stage,Colombia,Congo DR,,,,0.05750000000000005,,,0,,1,Train,Train
+49,2026-06-24,Group stage,Switzerland,Canada,,,,-0.04400000000000015,,,-1,,1,Train,Train
+50,2026-06-24,Group stage,Bosnia and Herzegovina,Qatar,,,,0.9760000000000001,,,0,,2,Train,Train
+51,2026-06-24,Group stage,Scotland,Brazil,,,,-0.378,,,0,,-3,Train,Train
+52,2026-06-24,Group stage,Morocco,Haiti,,,,0.42200000000000004,,,0,,2,Train,Train
+53,2026-06-24,Group stage,South Africa,Korea Republic,,,,-0.576,,,0,,1,Train,Test
+54,2026-06-24,Group stage,Czechia,Mexico,,,,-0.5679999999999998,,,-1,,-3,Train,Train
+55,2026-06-25,Group stage,Curaçao,Côte d'Ivoire,,,,-1.198,,,0,,-2,Train,Train
+56,2026-06-25,Group stage,Ecuador,Germany,,,,-0.5299999999999999,,,0,,1,Test,Test
+57,2026-06-25,Group stage,Tunisia,Netherlands,,,,-0.984,,,0,,-2,Test,Test
+58,2026-06-25,Group stage,Japan,Sweden,,,,0.488,,,0,,0,Train,Train
+59,2026-06-25,Group stage,Türkiye,USA,,,,0.08400000000000007,,,-1,,1,Train,Train
+60,2026-06-25,Group stage,Paraguay,Australia,,,,-0.3639999999999999,,,0,,0,Train,Train
+61,2026-06-26,Group stage,Norway,France,,,,-0.21999999999999986,,,0,,-3,Train,Train
+62,2026-06-26,Group stage,Senegal,Iraq,,,,0.40399999999999997,,,0,,5,Train,Test
+63,2026-06-26,Group stage,Uruguay,Spain,,,,-0.31199999999999994,,,0,,-1,Train,Train
+64,2026-06-26,Group stage,Cabo Verde,Saudi Arabia,,,,-0.02400000000000002,,,0,,0,Train,Test
+65,2026-06-26,Group stage,Egypt,IR Iran,,,,0.254,,,0,,0,Train,Train
+66,2026-06-26,Group stage,New Zealand,Belgium,,,,-0.46599999999999997,,,0,,-4,Train,Train
+67,2026-06-27,Group stage,Croatia,Ghana,,,,-0.158,,,0,,1,Train,Train
+68,2026-06-27,Group stage,Panama,England,,,,-1.074,,,0,,-2,Train,Train
+69,2026-06-27,Group stage,Congo DR,Uzbekistan,,,,0.48600000000000004,,,0,,2,Test,Test
+70,2026-06-27,Group stage,Colombia,Portugal,,,,-0.21800000000000003,,,0,,0,Train,Train
+71,2026-06-27,Group stage,Jordan,Argentina,,,,-1.0319999999999998,,,0,,-2,Train,Train
+72,2026-06-27,Group stage,Algeria,Austria,,,,0.20399999999999996,,,0,,0,Train,Train
+73,2026-06-28,Round of 32,South Africa,Canada,,,,-0.9950000000000001,,,-1,,-1,Train,Train
+74,2026-06-29,Round of 32,Brazil,Japan,,,,0.4053333333333333,,,0,,1,Test,Test
+75,2026-06-29,Round of 32,Germany,Paraguay,,,,1.15,,,0,,0,Train,Train
+76,2026-06-29,Round of 32,Netherlands,Morocco,,,,-0.10999999999999999,,,0,,0,Train,Train
+77,2026-06-30,Round of 32,Côte d'Ivoire,Norway,,,,-0.29166666666666674,,,0,,-1,Train,Train
+78,2026-06-30,Round of 32,France,Sweden,,,,0.6266666666666666,,,0,,3,Train,Train
+79,2026-06-30,Round of 32,Mexico,Ecuador,,,,-0.2063333333333333,,,1,,2,Train,Train
+80,2026-07-01,Round of 32,England,Congo DR,,,,0.5016666666666667,,,0,,1,Train,Train
+81,2026-07-01,Round of 32,Belgium,Senegal,,,,0.7750000000000001,,,0,,1,Train,Train
+82,2026-07-01,Round of 32,USA,Bosnia and Herzegovina,,,,0.48666666666666664,,,1,,2,Train,Test
+83,2026-07-02,Round of 32,Spain,Austria,,,,0.9333333333333332,,,0,,3,Test,Test
+84,2026-07-02,Round of 32,Portugal,Croatia,,,,0.5166666666666667,,,0,,1,Test,Test
+85,2026-07-02,Round of 32,Switzerland,Algeria,,,,0.5633333333333334,,,0,,2,Test,Test
+86,2026-07-03,Round of 32,Australia,Egypt,,,,0.028333333333333266,,,0,,0,Train,Train
+87,2026-07-03,Round of 32,Argentina,Cabo Verde,,,,1.0799999999999998,,,0,,1,Train,Train
+88,2026-07-03,Round of 32,Colombia,Ghana,,,,0.35333333333333333,,,0,,1,Train,Train
+89,2026-07-04,Round of 16,Canada,Morocco,,,,0.23142857142857143,,,1,,-3,Train,Train
+90,2026-07-04,Round of 16,Paraguay,France,,,,-1.4142857142857141,,,0,,-1,Train,Train
+91,2026-07-05,Round of 16,Brazil,Norway,,,,0.5185714285714285,,,0,,-1,Train,Train
+92,2026-07-05,Round of 16,Mexico,England,,,,-0.6373809523809525,,,1,,-1,Train,Train
+93,2026-07-06,Round of 16,Portugal,Spain,,,,-0.7085714285714284,,,0,,-1,Train,Train
+94,2026-07-06,Round of 16,USA,Belgium,,,,-0.24000000000000002,,,1,,-3,Train,Train
+95,2026-07-07,Round of 16,Argentina,Egypt,,,,0.8885714285714285,,,0,,1,Train,Train
+96,2026-07-07,Round of 16,Switzerland,Colombia,,,,0.2957142857142856,,,0,,0,Test,Test
+97,2026-07-09,Quarter-finals,France,Morocco,,,,0.27,,,0,,2,Train,Train
+98,2026-07-10,Quarter-finals,Spain,Belgium,,,,0.48,,,0,,1,Train,Train
+99,2026-07-11,Quarter-finals,Norway,England,,,,-0.5587500000000001,,,0,,-1,Train,Train
+100,2026-07-11,Quarter-finals,Argentina,Switzerland,,,,0.3637499999999999,,,0,,2,Train,Train
+101,2026-07-14,Semi-finals,France,Spain,,,,0.057777777777777484,,,0,,-2,Train,Test
+102,2026-07-15,Semi-finals,England,Argentina,,,,-0.3633333333333332,,,0,,-1,Test,Test
+103,2026-07-18,Third-place match,France,England,,,,0.44099999999999967,,,0,,-2,Train,Train
+104,2026-07-19,Final,Spain,Argentina,,,,0.06600000000000006,,,0,,1,Test,Test
