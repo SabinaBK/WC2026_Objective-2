@@ -1,0 +1,2 @@
+model,set,split,rows,cv_r2,r2,adj_r2,max_vif,wrong_signs,keep,review,swap
+2.2,original,Set_80_20,166,0.1333,0.2938,0.2578,2.0254,2,4,4,0

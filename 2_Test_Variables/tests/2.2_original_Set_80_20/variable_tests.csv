@@ -1,0 +1,9 @@
+,expected_sign,r,r_p_value,std_coef,coef_p_value,sign_ok,corr_sign_ok,VIF,r2_drop_when_removed,skew,n_unique,skew_after_YJ,verdict,notes
+fifa_diff,1,0.4849,0.0,0.5428,0.0001,True,True,2.0254,0.085,0.0,166,0.0,KEEP,
+score_form,1,0.2599,0.0007,0.1534,0.2069,True,True,1.5467,0.0059,0.6077,166,0.0016,KEEP,
+opp_concede_form,1,0.145,0.0623,0.0872,0.4507,True,True,1.4054,-0.023,0.4052,161,-0.002,REVIEW,
+xg_for,1,0.1959,0.0114,-0.0668,0.6006,False,True,1.7105,-0.0127,0.517,123,0.0029,REVIEW,coefficient sign flipped by other variables (collinearity)
+opp_xga,1,0.161,0.0383,0.0781,0.5541,True,True,1.8312,-0.0072,0.9021,121,-0.0263,REVIEW,
+attack_p90,1,0.3799,0.0,0.2824,0.0226,True,True,1.5881,-0.0049,-0.1927,41,-0.0796,KEEP,
+host,1,0.1197,0.1246,0.1267,0.2004,True,True,1.0255,-0.0151,3.4874,2,3.4874,KEEP (theory),few non-zero rows; kept because home advantage is well established
+opp_ucl_def,-1,-0.2393,0.0019,0.0477,0.7113,False,True,1.7456,-0.0182,1.0635,11,0.0194,REVIEW,skewed: consider Yeo-Johnson/log; coefficient sign flipped by other variables (collinearity)

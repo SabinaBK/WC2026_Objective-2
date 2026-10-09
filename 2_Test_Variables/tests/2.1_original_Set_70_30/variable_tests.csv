@@ -1,0 +1,9 @@
+,expected_sign,r,r_p_value,std_coef,coef_p_value,sign_ok,corr_sign_ok,VIF,r2_drop_when_removed,skew,n_unique,skew_after_YJ,verdict,notes
+fifa_diff,1,0.6776,0.0,0.8896,0.0099,True,True,3.6956,0.0315,0.0213,73,-0.1305,KEEP,
+scored_diff,1,0.3489,0.0025,0.1804,0.4262,True,True,1.6756,-0.0375,-0.4412,73,-0.0244,KEEP,
+conceded_diff,-1,-0.2579,0.0276,-0.3003,0.1548,True,True,1.4353,0.0173,-0.1287,73,0.0256,KEEP,
+xg_diff,1,0.3998,0.0005,-0.3285,0.2039,False,True,2.1611,0.001,-0.2984,51,-0.0066,REVIEW,coefficient sign flipped by other variables (collinearity)
+ucl_min_diff,1,0.588,0.0,-0.6878,0.2413,False,True,11.166,-0.0085,-0.023,72,-0.0441,REVIEW,VIF > 10: overlaps strongly with other variables; coefficient sign flipped by other variables (collinearity)
+attack_out_diff,1,0.651,0.0,1.2376,0.0415,True,True,11.6803,0.0188,-0.1134,68,-0.0259,KEEP,VIF > 10: overlaps strongly with other variables
+host,1,-0.0047,0.9688,-0.046,0.8128,False,False,1.2372,-0.0119,0.2,3,-0.0561,KEEP (theory),few non-zero rows; kept because home advantage is well established
+h2h_gd,1,0.4559,0.0001,0.2502,0.2305,True,True,1.4094,-0.0084,0.0462,20,0.2764,KEEP,

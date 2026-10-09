@@ -1,4 +1,0 @@
-,expected_sign,r,r_p_value,std_coef,coef_p_value,sign_ok,corr_sign_ok,VIF,r2_drop_when_removed,skew,n_unique,skew_after_YJ,verdict,notes
-xg_for,1,0.1959,0.0114,0.3689,0.0014,True,True,1.0992,0.0639,0.517,123,0.0029,KEEP,
-opp_xga,1,0.161,0.0383,0.3427,0.0028,True,True,1.09,0.0731,0.9021,121,-0.0263,KEEP,
-host,1,0.1197,0.1246,0.1463,0.1798,True,True,1.0089,-0.0062,3.4874,2,3.4874,KEEP (theory),few non-zero rows; kept because home advantage is well established - say so in the report
