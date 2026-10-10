@@ -26,7 +26,7 @@ for name, cfg in MODELS.items():
     x_cols, y_col = cfg["x_cols"], cfg["y_col"]
     train = df[df["Set_80_20"] == "Train"]
 
-    # Correlation matrix of the explanatory variables and the response variable
+    # The explanatory variables and the response variable of the Correlation matrix 
     corr = train[x_cols + [y_col]].corr()
 
     # Plot the pairwise correlation as heatmap

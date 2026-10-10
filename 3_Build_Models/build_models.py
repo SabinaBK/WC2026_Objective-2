@@ -36,7 +36,7 @@ def evaluate(name, y_test, y_pred, y):
 
 
 def build_and_evaluate(title, file, x_cols, y_col, id_cols, final_file):
-    """Build a linear regression on each split, evaluate it on the test set and compare it with the mean baseline."""
+    """function define to Build a linear regression on each split, evaluate it on the test set and compare it with the mean baseline."""
     # Read dataset into a DataFrame
     df = pd.read_csv(os.path.join(ROOT, "1_Build_Datasets", file))
 
