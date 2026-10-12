@@ -3,8 +3,8 @@
 Dep. Variable:                  goals   R-squared:                       0.294
 Model:                            OLS   Adj. R-squared:                  0.258
 Method:                 Least Squares   F-statistic:                     8.164
-Date:                Fri, 09 Oct 2026   Prob (F-statistic):           3.34e-09
-Time:                        18:41:06   Log-Likelihood:                -268.43
+Date:                Mon, 12 Oct 2026   Prob (F-statistic):           3.34e-09
+Time:                        17:05:25   Log-Likelihood:                -268.43
 No. Observations:                 166   AIC:                             554.9
 Df Residuals:                     157   BIC:                             582.9
 Df Model:                           8                                         
