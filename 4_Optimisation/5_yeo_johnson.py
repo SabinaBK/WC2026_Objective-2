@@ -1,3 +1,18 @@
+"""
+YEO-JOHNSON POWER TRANSFORMATION OF MODELS 2.1 AND 2.2
+
+This script applies the Yeo-Johnson power transformation to the explanatory variables of 
+each model to make their distributions more Gaussian-like. 
+Unlike the log, Yeo-Johnson also works on zero and negative values, so it can be applied to Model 2.1. 
+The transformer is fitted on the training rows only.
+The script then re-fits each model with statsmodels OLS on the 80/20 and 70/30
+splits and evaluates it on the test rows. 
+For the 80/20 split, it compares the skewness and histograms of each variable before and after
+the transformation.
+The test-set results are saved to the results folder.
+"""
+
+# To import necesaary libraries and modules
 import os
 import math
 import pandas as pd

@@ -1,3 +1,15 @@
+"""
+LOG TRANSFORMATION OF MODEL 2.2
+
+This script applies a log transformation to xg_for and score_form, which are
+positive variables with a curved relationship to goals. 
+It compares their scatter plots before and after the transformation, then re-fits Model 2.2 with
+statsmodels OLS on the 80/20 and 70/30 splits and saves the test-set results.
+Model 2.1 is not transformed because all of its variables are Team A - Team B
+differences that take negative values, so the log is undefined.
+"""
+
+# To import necesaary libraries and modules
 import os
 import math
 import numpy as np

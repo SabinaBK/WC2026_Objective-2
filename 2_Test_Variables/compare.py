@@ -1,3 +1,19 @@
+"""
+COMPARISON OF THE ORIGINAL AND BACKUP VARIABLE SETS
+
+This script runs test_variables.py for every model (2.1 and 2.2), variable set
+(original and backup) and split (80/20 and 70/30). 
+It then compares the backup set with the original set on each split. 
+The original set has a problem if the variable being replaced has the wrong coefficient sign 
+or the highest VIF is above 10. 
+The backup set passes if the added variable has the right sign, the highest VIF is 10 or below,
+and the cross-validated R^2 falls by no more than 0.02. 
+A variable is swapped only when the original set has a problem and the
+backup set passes on both splits. 
+All results are saved in test_results.xlsx.
+"""
+
+# To import necesaary libraries and modules
 import os
 import subprocess
 import sys

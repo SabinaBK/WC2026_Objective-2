@@ -1,3 +1,15 @@
+"""
+COMPARISON OF THE OPTIMISED LINEAR REGRESSION MODELS
+
+This script combines the results saved by the earlier scripts (original, log,
+z-score and Yeo-Johnson) into one table and saves it as optimisation_results.csv. 
+For each of Models 2.1 and 2.2, it prints the training fit and test-set metrics 
+of every version on both splits. 
+It then picks the best version as the one with the lowest average test RMSE across
+the 80/20 and 70/30 splits.
+"""
+
+# To import necesaary libraries and modules
 import os
 import pandas as pd
 

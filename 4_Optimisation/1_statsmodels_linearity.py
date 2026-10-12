@@ -1,3 +1,14 @@
+"""
+BUILD AND EVALUATE THE ORIGINAL MULTIPLE LINEAR REGRESSION MODELS
+ 
+This script fits Model 2.1 (goal difference) and Model 2.2 (goals scored)
+with statsmodels OLS on the training rows of two train/test splits
+(80/20 and 70/30), evaluates each model on its test rows, plots each
+explanatory variable against the response variable to inspect linearity,
+and saves the results to the results folder.
+"""
+
+# To import necesaary libraries and modules
 import os
 import math
 import pandas as pd

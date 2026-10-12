@@ -1,3 +1,16 @@
+"""
+Z-SCORE STANDARDISATION OF MODELS 2.1 AND 2.2
+
+This script standardises the explanatory variables of each model so that each
+has a mean of 0 and a standard deviation of 1. 
+The scaler is fitted on the training rows only. The script then re-fits each model with statsmodels OLS on
+the 80/20 and 70/30 splits and evaluates it on the test rows. 
+For the 80/20 split, it ranks the standardised coefficients by absolute size to show which
+variables have the largest effect. 
+The test-set results are saved to the results folder.
+"""
+
+# To import necesaary libraries and modules
 import os
 import math
 import pandas as pd

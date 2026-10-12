@@ -1,3 +1,22 @@
+"""
+VARIABLE TESTING FOR THE LINEAR REGRESSION DATASETS
+
+This script tests the explanatory variables of Model 2.1 (LR2.1_dataset.csv)
+or Model 2.2 (LR2.2_dataset.csv) on the training rows of the chosen split,
+for either the original or the backup variable set (the backup swaps one
+variable). 
+The tests include a data check, correlation with the response variable, 
+scatter plots with a line of best fit, standardised coefficients checked against 
+the expected sign, variance inflation factor (VIF), a drop-one
+test (5-fold cross-validated R^2) and distribution/skewness before and after
+Yeo-Johnson. 
+Each variable then gets a verdict of KEEP, REVIEW or SWAP for
+backup. 
+The results and charts are saved to the tests folder.
+
+Usage: python test_variables.py <2.1|2.2> <Set_80_20|Set_70_30> <original|backup>
+"""
+# To import necesaary libraries and modules
 import os
 import sys
 import warnings

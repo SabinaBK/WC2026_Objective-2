@@ -1,3 +1,15 @@
+"""
+MULTICOLLINEARITY CHECK OF MODELS 2.1 AND 2.2
+
+This script checks whether the explanatory variables of each model are too
+strongly related to each other, using the 80/20 training rows. 
+It plots a correlation heatmap of the explanatory and response variables, lists the three
+most strongly correlated pairs of explanatory variables, and calculates the
+variance inflation factor (VIF) of each one, where below 5 is fine and above
+10 signals a problem.
+"""
+
+# To import necesaary libraries and modules
 import os
 import numpy as np
 import pandas as pd

@@ -1,3 +1,21 @@
+"""
+BUILD THE LINEAR REGRESSION DATASETS
+
+This script reads the World Cup 2026 data from the Excel workbook (WC2026_data.xlsx)
+and builds two datasets for linear regression, saved as CSV files in this folder.
+LR2.1_dataset.csv has one row per match, with Team A's values minus Team B's values, 
+and goal difference as the response variable. 
+LR2.2_dataset.csv has two rows per match, one from each team's perspective, 
+with goals scored as the response variable (y). 
+Every value is calculated using only data available before each match: 
+FIFA points, opponent-adjusted recent form, in-tournament xG
+blended with a pre-tournament prior, Champions League minutes, Big 5 league
+attack output, head-to-head record and host status. 
+The backup variables (ppm_diff and fail_to_score) are also included for variable testing. 
+Missing values and data warnings are reported at the end of the script.
+"""
+
+# To import necesaary libraries and modules
 import os
 import re
 import sys
@@ -93,6 +111,7 @@ rm = read_sheet("Recent_Matches", {"team": ["team"], "date": ["date"], "opponent
                                    "gf": ["goals_for", "gf"], "ga": ["goals_against", "ga"]}, "date")
 rm["date"] = pd.to_datetime(rm["date"], errors="coerce")
 rm["team"], rm["opponent"] = rm["team"].map(clean), rm["opponent"].map(clean)
+
 # Only competitive matches played before the tournament; World Cup matches are added from Matches
 friendly = rm["competition"].astype(str).str.contains("friendl", case=False)
 if friendly.any():
@@ -101,6 +120,7 @@ rm = rm[~friendly & (rm["date"] < TOURNAMENT_START)]
 
 ms = read_sheet("Match_Stats", {"match_no": ["match_no", "match no"], "xg": ["xg"]}, "match_no")
 ms["match_no"] = num(ms["match_no"])
+
 # Within each match the first row is Team A and the second row is Team B
 ms["side"] = ms.groupby("match_no").cumcount().map({0: "A", 1: "B"})
 
