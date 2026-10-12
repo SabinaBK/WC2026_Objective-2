@@ -34,7 +34,7 @@ LOG_COLS = ["xg_for", "score_form"]         # positive variables with a curved r
 
 
 def evaluate(model, X_test, y_test, y_all):
-    """Training fit statistics and test-set performance metrics."""
+    """function evaluate is defined here forTraining fit statistics and test-set performance metrics."""
     y_pred = model.predict(sm.add_constant(X_test, has_constant="add"))
     rmse = math.sqrt(metrics.mean_squared_error(y_test, y_pred))
     return dict(train_R2=model.rsquared, train_adj_R2=model.rsquared_adj, AIC=model.aic, BIC=model.bic,
